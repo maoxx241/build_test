@@ -1,1 +1,1 @@
-form .mmzip import zip, unzip
+from .mmzip import zip, unzip
