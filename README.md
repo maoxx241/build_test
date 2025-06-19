@@ -18,19 +18,6 @@ Each package now includes a `pyproject.toml` so you can build wheels with
 2. From the repository root, run the following commands to build each
    package individually:
    ```bash
-   poetry build
-   (cd mindie_turbo/adapter/sglang_turbo && poetry build)
-   (cd mindie_turbo/adapter/vllm_turbo && poetry build)
+   bash build.sh
    ```
 The generated wheels will be placed in each package's `dist/` directory.
-
-## Running the tests
-
-1. Install the development requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Execute the test suite from the repository root:
-   ```bash
-   pytest
-   ```
