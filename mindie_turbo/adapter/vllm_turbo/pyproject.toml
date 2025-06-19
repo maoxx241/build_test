@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "vllm_turbo"
+version = "0.1.0"
+description = "VLLM adapter utilities"
+packages = [{ include = "vllm_turbo" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mindie_turbo = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
